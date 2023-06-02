@@ -1,0 +1,89 @@
+ <aside class="main-sidebar">
+  <!-- sidebar: style can be found in sidebar.less -->
+  <section class="sidebar">
+    <!-- Sidebar user panel (optional) -->
+    <div class="user-panel">
+      <div class="pull-left image">
+        <img src="../m_img/<?php echo $m_img; ?>" class="img-circle" alt="User Image">
+      </div>
+      <div class="pull-left info">
+        <p>คุณ <?php echo $m_name; ?></p>
+        <!-- Status -->
+        <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+      </div>
+    </div>
+    <ul class="sidebar-menu" data-widget="tree">
+        <li>
+        <a href="index.php"><i class="fa fa-home"></i>
+          <span> หน้าหลัก</span>
+        </a>
+      </li>
+
+      <li class="active">
+        <a href="order.php"><i class="fa fa-cogs"></i> <span>จัดการข้อมูลรายงาน</span>
+        <span class="pull-right-container">
+         
+        </span>
+      </a>
+
+      <li>
+        <a href="order.php"><i class="glyphicon glyphicon-record"></i>
+          <span> จัดการคำสั่งซื้อ</span>
+        </a>
+      </li>
+      <li>
+        <a href="order.php?act=report"><i class="glyphicon glyphicon-record"></i>
+          <span> รายงานการขาย</span>
+        </a>
+      </li>
+      
+           <li class="active">
+        <a href="product.php"><i class="fa fa-cogs"></i> <span>จัดการข้อมูลระบบ</span>
+        <span class="pull-right-container">
+         
+        </span>
+      </a>
+    </li>
+
+    <li>
+        <a href="product.php"><i class="glyphicon glyphicon-record"></i>
+          <span> จัดการสินค้า </span>
+        </a>
+      </li>
+
+      <li>
+        <a href="type.php"><i class="glyphicon glyphicon-record"></i>
+          <span> จัดการประเภท </span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="bank.php"><i class="glyphicon glyphicon-record"></i>
+          <span> จัดการธนาคาร </span>
+        </a>
+      </li>
+
+      <li>
+        <a href="member.php"><i class="glyphicon glyphicon-record"></i>
+          <span> จัดการสมาชิก</span>
+        </a>
+      </li>
+     
+        <li>
+        <a href="resetpass.php"><i class="glyphicon glyphicon-record"></i>
+          <span> แก้ไขรหัสผ่าน </span>
+        </a>
+      </li>
+
+        
+
+      
+      <li >
+        <a href="../logout.php" onclick="return confirm('คุณต้องการออกจากระบบหรือไม่ ?');"><i class="glyphicon glyphicon-off"></i>
+          <span> ออกจากระบบ</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <!-- /.sidebar -->
+</aside>
